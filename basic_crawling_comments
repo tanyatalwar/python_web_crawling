@@ -9,3 +9,7 @@
    allowed_domains − It contains the base URLs for the spider to crawl.
    start-urls − A list of URLs from where the spider starts crawling.
    parse() − It is a method that extracts and parses the scraped data.
+
+4) For extracting data from web pages, Scrapy uses a technique called selectors based on
+   - XPath
+   - CSS
