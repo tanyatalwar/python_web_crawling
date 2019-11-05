@@ -1,1 +1,11 @@
+1) To start a new project in scrapy(scrapy is a python framework used for web crawling)
+   command: scrapy startproject project_name
 
+2) create a new spider inside project which will crawl website and gather data for you.
+   command: scrapy genspider mydomain mydomain.com
+   
+3) Spider is a class that defines initial URL to extract the data from, how to follow pagination links.
+   name − It defines the unique name for the spider.
+   allowed_domains − It contains the base URLs for the spider to crawl.
+   start-urls − A list of URLs from where the spider starts crawling.
+   parse() − It is a method that extracts and parses the scraped data.
