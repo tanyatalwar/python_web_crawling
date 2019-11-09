@@ -13,7 +13,6 @@
 4) For extracting data from web pages, Scrapy uses a technique called selectors based on
    - XPath
    - CSS
-   
-   
-scrapy runspider myspider.py
-   
+
+5)Command to run Spider
+  command: scrapy runspider myspider.py
